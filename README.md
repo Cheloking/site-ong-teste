@@ -1,7 +1,7 @@
-<h1 align="center"> DevLinks </h1>
+<h1 align="center"> A caridade não espera </h1>
 
 <p align="center">
-Site em desenvolvimento para apoio a causa "A caridade não espera"<br/>
+Site em desenvolvimento para apoio a causa<br/>
 </p>
 
 <p align="center">
