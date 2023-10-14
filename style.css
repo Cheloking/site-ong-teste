@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    border: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+
+
+/* MENU*/
+
+.content{
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFDE3F;
+    position: fixed;
+    padding-left: 15rem;
+}
+
+.logo{
+    width: 80px;
+    height: auto;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.content .list-menu{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content .list-menu li a{
+    padding: 3rem 1rem 2rem 1rem;
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 200ms ease-in;
+}
+
+.content .list-menu li a:hover{
+    background-color: #3333;
+    border-bottom: 4px solid #FFEDA2;
+    color: #FFEDA2;
+}
+/* first-section*/
+
+.first-section{
+    height: 100vh;
+    background-image: linear-gradient(rgba(20,20,20,0.6),rgba(20,20,20,0.6)),url(fundo2.PNG);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 50px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-section .conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-section h1{
+    color: white;
+    font-size: 6rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.first-section h2{
+    color: rgb(177, 177, 177);
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+
+.btn button{
+    width: 230px;
+    height: 60px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color:#FFDE3F;
+    border-radius: 45px;
+    color: black;
+    font-weight: 700;
+    margin-top: 5rem;
+    transition: all 400ms ease-in;
+
+}
+
+.btn button:hover{
+    border: 1px solid #FFDE3F;
+    background-color: transparent;
+    color: white;
+}
+
+/* sobre nós*/
+
+.sobre-nos{
+background-color: #2d2d2d;
+width: 100%;
+padding-bottom: 5rem;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.sobre-nos img{
+    width: 300px;
+    height: 300px;
+    margin-top: 10rem;
+    margin-left: 10rem;
+    border: 2px solid rgb(155,155,155);
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentsobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentsobre h2{
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+
+.contentsobre p{
+    text-align: center;
+    font-size: 1.6rem;
+    width: 600px;
+}
+/* rodape */
+#logo img{
+    width: 150px;
+   }
+#rodape{
+    background-color: #FFFF01;
+    border: 1px red solid;
+    text-align: center;
+  }
+  .wrapper{
+    width: 100%;
+    position: relative;
+    background-color: #FFFF01;
+    border: 2px solid #FFFF01;
+  }
+  .wrapper i{
+    top: 50%;
+    height: 44px;
+    width: 44px;
+    color: #343F4F;
+    cursor: pointer;
+    font-size: 1.15rem;
+    position: absolute;
+    text-align: center;
+    line-height: 44px;
+    background: #130b0b;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    transition: transform 0.1s linear;
+  }
+  .wrapper i:active{
+    transform: translateY(-50%) scale(0.9);
+  }
+  .wrapper i:hover{
+    background: #791818;
+  }
+  .wrapper i:first-child{
+    left: -22px;
+    display: none;
+  }
+  .wrapper i:last-child{
+    right: -22px;
+  }
+  .wrapper .carousel{
+    font-size: 0px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+  }
+  .carousel.dragging{
+    cursor: grab;
+    scroll-behavior: auto;
+  }
+  .carousel.dragging img{
+    pointer-events: none;
+  }
+  .carousel img{
+    height: 300px;
+    user-select:none;
+    margin-left: 14px;
+    width: calc(100% / 5);
+  }
+  .carousel img:first-child{
+    margin-left: 0px;
+  }
+  @media screen and (max-width: 900px) {
+    .carousel img{
+      width: calc(100% / 2);
+    }
+  }
+  @media screen and (max-width: 550px) {
+    .carousel img{
+      width: 100%;
+    }
+  }
