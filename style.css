@@ -583,19 +583,22 @@ footer {
 
 /*RESPONSIVIDADE*/
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1024px){
   .pri-section{ /*center*/
     width: 100%;
     text-align: center;
 }
+  .image img{
+    display: none;
+  }
   .logo img{
-    width: 100%;
+    width: 100% cover;
   } 
   .menu{
       display: none;
   }
   .logo{
-      width: 20%;
+      width: ;
   }
   .menu-mobile {
       width: 80%;
@@ -619,5 +622,6 @@ footer {
       grid-template-columns: repeat(2,1fr);
       gap: 2rem;
   }
+
 
 }
