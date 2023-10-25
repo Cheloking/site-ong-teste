@@ -582,33 +582,6 @@ footer {
 }
 
 /*RESPONSIVIDADE*/
-@media (min-width: 726px) and (max-width: 1024px){
-  .pri-section { /*center*/
-    padding: 0px;
-    display: inline;
-}
-  .logo, .menu{
-    text-align: center;
-    justify-content: center;
-  }
-  .image img{
-  width: 200px;
-  }
-  .logo img{
-    width: 90% cover;
-  } 
-  .conteudo-sobre p{
-      width: 100%;
-      margin: 20px 20px;
-  } 
-  .frase-single {
-    width: 100%;
-  }
-  .footer-content {
-      grid-template-columns: repeat(2,1fr);
-      gap: 2rem;
-  }
-}
 
 @media screen and (max-width: 726px){
   .pri-section{ /*center*/
