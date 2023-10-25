@@ -588,6 +588,8 @@ footer {
     width: 100%;
     text-align: center;
     overflow-x:hidden;
+    padding: 0%;
+    margin: 0%;
 }
   .logo img{
     width: 100%;
@@ -605,7 +607,14 @@ footer {
       width: 80%;
       text-align: right;
       display: block;
-      overflow-x: hidden
+      overflow-x: hidden;
+  }
+  .doe-cont{
+    text-align: center;
+  }
+  .doe-cont img{
+    display: none;
+    
   }
   .menu-mobile i{
       cursor: pointer;
