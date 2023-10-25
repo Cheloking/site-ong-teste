@@ -583,14 +583,18 @@ footer {
 
 /*RESPONSIVIDADE*/
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 450px){
   .pri-section{ /*center*/
     width: 100%;
     text-align: center;
+    overflow-x:hidden;
 }
   .logo img{
     width: 100%;
   } 
+  .image{
+    display: none;
+  }
   .menu{
       display: none;
   }
@@ -601,6 +605,7 @@ footer {
       width: 80%;
       text-align: right;
       display: block;
+      overflow-x: hidden
   }
   .menu-mobile i{
       cursor: pointer;
