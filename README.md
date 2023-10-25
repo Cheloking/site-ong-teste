@@ -13,7 +13,7 @@ Site em desenvolvimento para apoio a causa<br/>
 <br>
 
 <p align="center">
-  <img alt="Logo" src="img/acaosocial-logo-redonda.png" width="100%">
+  <img alt="Logo" src="img/acaosocial-logo-redonda.pn" width="100%">
 </p>
 
 ## :memo: Resumo
