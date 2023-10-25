@@ -591,13 +591,6 @@ footer {
     text-align: center;
     justify-content: center;
   }
-}
-
-@media screen and (max-width: 1024px){
-  .pri-section { /*center*/
-    width: 100%;
-    padding: 0px;
-}
   .image img{
   width: 200px;
   }
@@ -623,7 +616,7 @@ footer {
     text-align: center;
 }
   .image img{
-  width: 200px;
+  display: none;
   }
   .logo img{
     width: 100% cover;
