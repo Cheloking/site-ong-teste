@@ -597,8 +597,8 @@ footer {
   .menu{
       display: none;
   }
-  .logo{
-      width: ;
+  .menu-mobile a{
+    cursor: none;
   }
   .menu-mobile {
       width: 80%;
