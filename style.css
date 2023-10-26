@@ -114,7 +114,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 140px;
+    gap: 70px;
     min-height: calc(100vh - 80px);
     
 }
@@ -128,10 +128,11 @@
 
 .content .info h1 {
     color: #000000;
-    font-size: 60px;
+    font-size: 40px;
     line-height: 1.5;
     text-transform: uppercase;
     font-weight: 400;
+    white-space: nowrap;
 }
 
 .content .info p {
@@ -163,7 +164,7 @@
   }
 
 .content .image img {
-    margin-left: 70px;
+    margin-left: 7px;
     width: 120%;
     opacity: 1;
     filter: brightness(1.2) contrast(1.2);
