@@ -10,8 +10,6 @@
     list-style: none;
     border: none;
     text-decoration: none;
-    ;
-    
   }
 
 .pri-section{ /*center*/
@@ -222,36 +220,31 @@
   }
 
 /*FRASE*/  
-  section.frase{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.212),rgba(255, 255, 255, 0.185)),url(img/fundoyel.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    padding: 20px 100px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 35vh;
-    font-size: 20px;
-    width: 100vw;
-    
-    
-  }
+section.frase{
+  background-image: linear-gradient(rgba(255, 255, 255, 0.212),rgba(255, 255, 255, 0.185)),url(img/fundoyel.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 35vh;
+  font-size: 20px;
+  width: 100vw;
+}
+.frase-single{
 
-  .frase-single{
+  width: 22%;
+  margin-right: 5%; 
+  text-align: center; 
+  color: black;
+}
+
+.frase-single h2{
+  font-size: 30px;
+  font-weight: 400;
   
-    width: 22%;
-    margin-right: 5%; 
-    text-align: center; 
-    color: black;
-  }
-
- 
-
-  .frase-single h2{
-    font-size: 30px;
-    font-weight: 400;
-    
-  }
+}
 
 /* GALERIA */
 #logo img{
@@ -345,41 +338,9 @@ section.conquistas{
     justify-content: space-around;
     align-items: center;
     color: white;
-    height: 20vh;
-    
-    
+    height: 20vh;    
 }
 
-
-
-/*CONQUISTAS*/
-
-section.conquistas-emp{
-    background-color: rgb(180, 180, 255);
-    padding: 20px 0;
-}
-
-.conquista-single-emp{
-    width: 22%;
-    margin-right: 3%;
-    text-align: center;
-    color: white;
-}
-
-.conquista-single-emp img{
-    max-width: 100%;
-}
-
-.conquista-single-emp img{
-    filter: grayscale(100%);
-    transform:scale(1,1);
-    transition: 0.8s;
-}
-
-.conquista-single-emp img:hover{
-    filter: grayscale(0);
-    transform:scale(1.2,1.2);
-}
 
 /*DOE*/
 
@@ -583,20 +544,14 @@ footer {
 
 /*RESPONSIVIDADE*/
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 768px){
   .pri-section{ /*center*/
     width: 100%;
     text-align: center;
-    overflow-x:hidden;
-    padding: 0%;
-    margin: 0%;
 }
   .logo img{
     width: 100%;
   } 
-  .image{
-    display: none;
-  }
   .menu{
       display: none;
   }
@@ -607,14 +562,6 @@ footer {
       width: 80%;
       text-align: right;
       display: block;
-      overflow-x: hidden;
-  }
-  .doe-cont{
-    text-align: center;
-  }
-  .doe-cont img{
-    display: none;
-    
   }
   .menu-mobile i{
       cursor: pointer;
