@@ -10,7 +10,9 @@
   border: none;
   text-decoration: none;
 }
-
+button{
+  margin: 0px 0px 50px;
+}
 header.pri-section{ /*center*/
     max-width: 1100px;
     margin: 0 auto;
@@ -26,9 +28,13 @@ header.pri-section{ /*center*/
 
 /*MENU*/
 
+.pri-section{
+  display: flex;
+}
 .menu{
     width: 90%;
     text-align: right;
+    margin: 0px 0px 50px 0px;
 }
 .menu a{
     color: black;
@@ -118,8 +124,6 @@ body {
   flex-direction: column;
   /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; */
-  padding-right: 1rem;
-  padding-left: 1rem;
 }
 
 h1, h2 {
@@ -215,7 +219,7 @@ Seção Footer - Rodapé
 }
 
 footer {
- width: 100%;
+ height: 100%;
  color: var(--color-neutral-40);
  color: white;
 }
@@ -235,6 +239,8 @@ footer {
  text-transform: uppercase;
  line-height: 1.4;
  text-align: center;
+ color: #ffffff;
+ font-size: 24px;
 }
 
 .footer-content-contacts img{
@@ -250,14 +256,25 @@ footer {
   background-color: #ffffff; /* Escolha a cor que desejar */
   margin-left: 100px;
 }
-
+.footer-list h2{
+  color: white;
+  text-align: left;
+  margin: 0;
+  font-size: 30px;
+}
+.footer-list li{
+  font-size: 20px;
+}
 .footer-social-media{
  display: flex;
  gap: 0.8rem;
  margin-top: 0.8rem;
- 
 }
-
+.subscribe h2{
+  color: white;
+  font-size: 24px;
+  text-align: left;
+}
 .footer-social-media .footer-link{
  display: flex;
  align-items: center;
@@ -281,6 +298,7 @@ footer {
 
 .footer-social-media .footer-link i{
 font-size: 35px;
+
 }    
 
 .footer-list {
@@ -289,10 +307,8 @@ font-size: 35px;
  gap: 0.4rem;
  list-style: none;
  line-height: 1.3;
- font-size: 20px;
  font-weight: 400;
 }
-
 .footer-list .footer-link{
  color: rgb(117, 117, 117);
  
