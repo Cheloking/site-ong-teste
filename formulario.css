@@ -373,6 +373,10 @@ font-size: 35px;
 
 /* Media Query para tela de 440px */
 @media screen and (max-width: 440px) {
+  body{
+    background-size: cover;
+  }
+
   header.pri-section {
     padding: 0 5px;
   }
@@ -405,6 +409,7 @@ font-size: 35px;
 
   .form {
     max-width: 100%;
+    padding: 10px;
   }
 
   .form label,
@@ -455,4 +460,134 @@ font-size: 35px;
   .subscribe h2 {
     font-size: 20px;
   }
+  .logo img {
+    margin-right: 300px;
+
+  }
+  .footer-content-contacts img {
+    margin-left: 120px;
+  }
+  .box{
+    background-color: rgb(32, 32, 32);
+    display: grid;
+    grid-template-columns: repeat(1,1fr) 50%; 
+  }
+  .subscribe{
+    text-align: right;
+  }
+  .footer-social-media{
+    justify-content: center;
+  }
+  .sobre-nos p {
+    line-height: 50px;
+    font-size: 22px;
+    margin: 20px 100px 100px 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+}
+
+/* Media Query para tela de 320px */
+@media screen and (max-width: 320px) {
+  header.pri-section {
+    padding: 0 5px;
+  }
+
+  .logo img {
+    width: 60px;
+    height: 55px;
+    margin-right: 200px;
+  
+  }
+
+  .menu {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+
+  .menu a {
+    font-size: 14px;
+    margin-right: 20px;
+    margin-top: 15px;
+    padding: 1.5rem 0.5rem 1.5rem 0.5rem;
+  }
+
+  .menu .btn-menu {
+    padding: 8px 14px;
+  }
+
+  .menu-items {
+    top: 50px;
+  }
+
+  .form {
+    max-width: 100%;
+  }
+
+  .form label,
+  .form input,
+  .form textarea,
+  .form button {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+
+  .form textarea {
+    min-height: 8rem;
+  }
+
+  .footer-content {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 2rem;
+  }
+
+  .footer-content-contacts h2 {
+    margin-left: 10px;
+    font-size: 18px;
+  }
+
+  .footer-content-contacts img {
+    width: 100px;
+    height: 90px;
+    margin-left: 80px;
+  }
+
+  .vertical-line {
+    margin-left: 10px;
+  }
+
+  .footer-copyright {
+    padding: 1rem;
+    font-size: 0.8rem;
+  }
+
+  .footer-list h2 {
+    font-size: 18px;
+  }
+
+  .footer-list li {
+    font-size: 14px;
+  }
+
+  .subscribe h2 {
+    font-size: 18px;
+    
+  }
+  .footer-social-media {
+    padding: 0px 0px 0px 10px;
+    
+}
+}
+
+@media screen and (max-width: 360px) {
+  .logo img {
+    margin-right: 250px;
+}
+.footer-content-contacts img {
+  margin-left: 90px;
+}
+
 }
