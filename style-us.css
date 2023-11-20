@@ -1008,7 +1008,6 @@ footer {
 
 /* Media Query para tela de 360px */
 @media screen and (max-width: 360px) {
-  
   .logo img {
     width: 70px;
     height: 70px;
