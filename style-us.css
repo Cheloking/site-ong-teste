@@ -478,6 +478,203 @@ footer {
   }
 
 }
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .pri-section {
+    padding: 0px;
+  }
+
+  .logo img {
+    width: 120px;
+    height: 115px;
+  }
+
+  .menu {
+    width: 80%;
+    text-align: center;
+    margin: 25px 0px 100px 50px;
+  }
+
+  .menu a {
+    font-size: 16px;
+    margin-right: 15px;
+    margin-top: 10px;
+    padding: 2rem 0.5rem 1rem 0.5rem;
+  }
+
+  .menu .btn-menu {
+    padding: 8px 12px;
+  }
+
+  .menu-items {
+    top: 50px;
+  }
+  .sobre-nos{
+    background-size: cover;
+    flex-direction: column;
+  }
+  .sobre-nos img {
+    width: 80%;
+    height: auto;
+    margin: 10px100px;
+  }
+
+  .quem-somos h2 {
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 30px;
+  }
+
+  .quem-somos p {
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 18px;
+  }
+
+  .historia h2 {
+    font-size: 30px;
+    padding-bottom: 2rem;
+  }
+
+  .historia p {
+    font-size: 20px;
+    margin: 20px 10px 50px 10px;
+  }
+
+  .historia img {
+    width: 300px;
+    height: 300px;
+    margin-top: 5rem;
+    margin-left: 5rem;
+  }
+
+  section.frase {
+    padding: 20px 10px;
+    height: 28vh;
+  }
+
+  .wrapper h1 {
+    font-size: 30px;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+  }
+
+  .wrapper i {
+    height: 44px;
+    width: 44px;
+    font-size: 1.15rem;
+  }
+
+  .conquista-single {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  section.conquistas {
+    padding: 20px 10px;
+  }
+
+  .footer-content {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem 1rem;
+  }
+
+  .footer-content-contacts img {
+    margin-left: 0;
+  }
+
+  .vertical-line {
+    margin-left: 0;
+  }
+
+  .footer-social-media {
+    margin-top: 1rem;
+  }
+
+  .footer-social-media .footer-link {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .footer-list .footer-link {
+    font-size: 20px;
+  }
+
+  .footer-copyright {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  .footer-content-contacts img {
+    margin-left: 400px;
+  }
+  .footer-content {
+    grid-template-columns: 1fr;
+    padding: 3rem 1rem;
+  }
+
+  .footer-content-contacts h2 {
+    margin-left: 0;
+  }
+
+  .vertical-line {
+    margin-left: 0;
+  }
+
+  .footer-social-media .footer-link {
+    height: 3rem;
+    width: 3rem;
+  }
+
+  .footer-link i {
+    font-size: 25px;
+  }
+
+  .footer-copyright {
+    padding: 1rem;
+  }
+
+  .content .image img {
+    margin-left: 7px;
+    width: 80%;
+  }
+  .wrapper i:last-child {
+    right: 0px;
+  }
+  .wrapper i {
+  background:rgba(231, 229, 229, 0.9);
+
+  }
+  .carousel img{
+    height: 250px;
+    user-select:none;
+    margin-left: 14px;
+    width: calc(100% / 3);
+  }
+  .footer-content-contacts img {
+    margin-left: 400px;
+  }
+  .box{
+    background-color: rgb(32, 32, 32);
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+  }
+  .subscribe{
+    text-align: right;
+  }
+  .footer-social-media{
+    justify-content: right;
+  }
+  .sobre-nos p {
+    line-height: 50px;
+    font-size: 22px;
+    margin: 20px 100px 100px 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: rgb(1, 1, 1);
+  }
+}
+
 @media screen and (max-width: 440px) {
   .pri-section {
     padding: 0 5px;
@@ -637,16 +834,16 @@ footer {
   }
   .wrapper i:last-child {
     right: 0px;
-}
-.box{
-  background-color: rgb(32, 32, 32);
-   display: grid;
-   grid-template-columns: repeat(2,1fr); 
-}
-.subscribe{
-  text-align: right;
-}
-.footer-social-media{
-  justify-content: right;
-}
+  }
+  .box{
+    background-color: rgb(32, 32, 32);
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+  }
+  .subscribe{
+    text-align: right;
+  }
+  .footer-social-media{
+    justify-content: right;
+  }
 }
