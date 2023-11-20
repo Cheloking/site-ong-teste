@@ -437,10 +437,6 @@ footer {
    color: var(--color-neutral-40);
    color: white;
 }
-.subscribe{
-  
-}
-
 .footer-content{
    background-color: rgb(32, 32, 32);
    display: grid;
@@ -554,6 +550,10 @@ footer {
 
   .pri-section {
     padding: 0px;
+  }
+  .container {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .menu {
