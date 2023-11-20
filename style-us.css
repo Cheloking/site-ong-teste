@@ -440,6 +440,164 @@ footer {
 
 /*RESPONSIVIDADE*/
 
+@media screen and (max-width: 1024px) {
+
+  .pri-section {
+    padding: 0px;
+  }
+  .container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .menu {
+    width: 80%;
+    text-align: right;
+    margin-top: 10px;
+  }
+
+  .menu a {
+    margin-right: 15px;
+    margin-top: 10px;
+    padding: 1rem;
+  }
+
+  .menu .btn-menu {
+    padding: 8px 12px;
+  }
+
+  .menu-items {
+    top: 80px;
+  }
+
+  .sobre-nos {
+    padding: 80px 0;
+  }
+
+  .sobre-nos img {
+    margin-top: 3rem;
+    margin-left: 100px;
+  }
+
+  .frase {
+    padding: 20px 20px;
+  }
+
+  .frase-single {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .wrapper {
+    gap: 10px;
+  }
+
+  .wrapper h1 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .carousel img {
+    height: 200px;
+  }
+
+  section.conquistas {
+    height: auto;
+  }
+
+  .doe-cont {
+    margin-left: 0;
+  }
+
+  .doe-info h1 {
+    font-size: 40px;
+  }
+
+  .doe-info h2 {
+    font-size: 18px;
+  }
+
+  .doe-info button {
+    padding: 8px 12px;
+  }
+  footer {
+    display: block;
+  }
+
+  .footer-content {
+    grid-template-columns: 1fr;
+    padding: 3rem 1rem;
+  }
+
+  .footer-content-contacts h2 {
+    margin-left: 0;
+  }
+
+  .footer-content-contacts h2 {
+    margin-right: 30px;
+  }
+
+  .vertical-line {
+    margin-left: 0;
+  }
+
+  .footer-social-media .footer-link {
+    height: 3rem;
+    width: 3rem;
+  }
+
+  .footer-link i {
+    font-size: 25px;
+  }
+
+  .footer-copyright {
+    padding: 1rem;
+  }
+
+  .footer-content-contacts img {
+    margin-left: 415px;
+  }
+
+  .wrapper i:last-child {
+    right: 0px;
+  } 
+
+  .wrapper i {
+  background:rgba(231, 229, 229, 0.9);
+
+  }
+  .carousel img{
+    height: 250px;
+    user-select:none;
+    margin-left: 14px;
+    width: calc(100% / 3);
+  }
+  .footer-content-contacts img {
+    margin-left: 400px;
+  }
+  .box{
+    background-color: rgb(32, 32, 32);
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+  }
+  .subscribe{
+    text-align: right;
+  }
+  .footer-social-media{
+    justify-content: right;
+  }
+  .sobre-nos p {
+    line-height: 50px;
+    font-size: 22px;
+    margin: 20px 100px 100px 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+}
+
 @media screen and (max-width: 768px){
   .pri-section{ /*center*/
     width: 100%;
@@ -846,8 +1004,125 @@ footer {
   .footer-social-media{
     justify-content: right;
   }
-  /* Media Query para tela de 280px */
-/* Media Query para tela de 320px */
+}
+
+/* Media Query para tela de 360px */
+@media screen and (max-width: 360px) {
+  
+  .logo img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .menu {
+    width: 100%;
+    text-align: center;
+  }
+
+  .menu a {
+    font-size: 16px;
+    margin-right: 0;
+    margin-top: 10px;
+    padding: 8px 0;
+  }
+
+  .menu .btn-menu {
+    margin-top: 10px;
+  }
+
+  .menu-items {
+    top: 50px;
+  }
+
+  .sobre-nos img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+
+  .quem-somos h2 {
+    margin-top: 20px;
+    margin-left: 0;
+    font-size: 25px;
+  }
+
+  .quem-somos p {
+    margin-left: 0;
+    font-size: 14px;
+    color: black;
+    text-align: justify;
+    font-size: 18px;
+    margin: 25px;
+    line-height: 2;
+  }
+
+  .historia img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+
+  .historia h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
+
+  .historia p {
+    margin: 20px 10px;
+    font-size: 14px;
+  }
+
+  .wrapper h1 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 25px;
+  }
+
+  .wrapper i {
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+  }
+
+  .carousel img {
+    height: 150px;
+  }
+
+  section.conquistas {
+    padding: 20px 10px;
+  }
+
+  .conquista-single {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .footer-content {
+    grid-template-columns: 1fr;
+    padding: 2rem;
+  }
+
+  .footer-content-contacts img {
+    margin-left: 90px;
+  }
+
+  .vertical-line {
+    margin-left: 0;
+  }
+
+  .footer-copyright {
+    font-size: 0.8rem;
+    padding: 1rem;
+  }
+  .footer-content-contacts h2 {
+    margin-left: 35px;
+}
+}
+
+
 @media screen and (max-width: 320px) {
 
   /* Ajustes para o menu mobile */
