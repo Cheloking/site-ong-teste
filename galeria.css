@@ -433,6 +433,34 @@ footer {
     .container .image-container .image h3 {
       font-size: 30px;
     }
+    .box{
+        background-color: rgb(32, 32, 32);
+         display: grid;
+         grid-template-columns: repeat(2,1fr); 
+      }
+      .subscribe{
+        text-align: right;
+      }
+      .footer-social-media{
+        justify-content: right;
+      }
+      .sobre-nos p {
+        line-height: 50px;
+        font-size: 22px;
+        margin: 20px 100px 100px 100px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        color: white;
+      }
+      .vertical-line {
+          margin-left: 100px;
+          display: none;
+      }
+      .footer-content-contacts h2 {
+        margin-right: 120px;
+        text-align: center;
+    }
   }
   
 
@@ -602,28 +630,7 @@ background:rgba(231, 229, 229, 0.9);
 .footer-content-contacts img {
   margin-left: 400px;
 }
-.box{
-  background-color: rgb(32, 32, 32);
-   display: grid;
-   grid-template-columns: repeat(2,1fr); 
 }
-.subscribe{
-  text-align: right;
-}
-.footer-social-media{
-  justify-content: right;
-}
-.sobre-nos p {
-  line-height: 50px;
-  font-size: 22px;
-  margin: 20px 100px 100px 100px;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  color: white;
-}
-}
-
 @media (max-width: 768px) {
 
     .container .image-container {
