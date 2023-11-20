@@ -366,6 +366,161 @@ footer {
 
 /*RESPONSIVIDADE*/
 
+/*RESPONSIVIDADE*/
+
+@media screen and (max-width: 1024px) {
+
+  .pri-section {
+    padding: 0px;
+  }
+  .container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .menu {
+    width: 80%;
+    text-align: right;
+    margin-top: 10px;
+  }
+
+  .menu a {
+    margin-right: 15px;
+    margin-top: 10px;
+    padding: 1rem;
+  }
+
+  .menu .btn-menu {
+    padding: 8px 12px;
+  }
+
+  .menu-items {
+    top: 80px;
+  }
+
+  .sobre-nos {
+    padding: 80px 0;
+  }
+
+  .sobre-nos img {
+    margin-top: 3rem;
+    margin-left: 0;
+  }
+
+  .frase {
+    padding: 20px 20px;
+  }
+
+  .frase-single {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .wrapper {
+    gap: 10px;
+  }
+
+  .wrapper h1 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .carousel img {
+    height: 200px;
+  }
+
+  section.conquistas {
+    height: auto;
+  }
+
+  .doe-cont {
+    margin-left: 0;
+  }
+
+  .doe-info h1 {
+    font-size: 40px;
+  }
+
+  .doe-info h2 {
+    font-size: 18px;
+  }
+
+  .doe-info button {
+    padding: 8px 12px;
+  }
+  footer {
+    display: block;
+  }
+
+  .footer-content {
+    grid-template-columns: 1fr;
+    padding: 3rem 1rem;
+  }
+
+  .footer-content-contacts h2 {
+    margin-left: 0;
+  }
+
+  .vertical-line {
+    margin-left: 0;
+  }
+
+  .footer-social-media .footer-link {
+    height: 3rem;
+    width: 3rem;
+  }
+
+  .footer-link i {
+    font-size: 25px;
+  }
+
+  .footer-copyright {
+    padding: 1rem;
+  }
+
+  .content .image img {
+    margin-left: 7px;
+    width: 80%;
+}
+.wrapper i:last-child {
+  right: 0px;
+}
+.wrapper i {
+background:rgba(231, 229, 229, 0.9);
+
+}
+.carousel img{
+  height: 250px;
+  user-select:none;
+  margin-left: 14px;
+  width: calc(100% / 3);
+}
+.footer-content-contacts img {
+  margin-left: 400px;
+}
+.box{
+  background-color: rgb(32, 32, 32);
+   display: grid;
+   grid-template-columns: repeat(2,1fr); 
+}
+.subscribe{
+  text-align: right;
+}
+.footer-social-media{
+  justify-content: right;
+}
+.sobre-nos p {
+  line-height: 50px;
+  font-size: 22px;
+  margin: 20px 100px 100px 100px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+}
+
 @media screen and (max-width: 768px){
   .pri-section{ /*center*/
     width: 100%;
@@ -402,5 +557,337 @@ footer {
       grid-template-columns: repeat(2,1fr);
       gap: 2rem;
   }
+  
 
+}
+@media screen and (max-width: 768px) {
+  .content .container {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      min-height: auto;
+  }
+  .info h1 {
+      font-size: 28px;
+  }
+  .info p {
+      font-size: 18px;
+  }
+  .info button {
+      font-size: 16px;
+  }
+  
+}
+
+@media screen and (max-width: 768px) {
+  .sobre-nos h2 {
+      font-size: 28px;
+      padding-bottom: 2rem;
+  }
+  .sobre-nos p {
+      font-size: 18px;
+      margin: 10px;
+  }
+  .sobre-nos img {
+      width: 200px;
+      height: 200px;
+      margin: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer-content {
+      grid-template-columns: 1fr;
+  }
+  .footer-content-contacts {
+      margin-left: 0;
+      padding: 0 10px;
+  }
+  .vertical-line {
+      display: none;
+  }
+  .footer-social-media {
+      margin-top: 0;
+  }
+  .footer-social-media .footer-link {
+      height: 2rem;
+      width: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer-list {
+      font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .frase h2 {
+      font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .doe-info h1 {
+      font-size: 30px;
+  }
+  .doe-info h2 {
+      font-size: 20px;
+  }
+  .info p {
+      font-size: 18px;
+  }
+  .doe-info button {
+      font-size: 16px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .menu a {
+      font-size: 16px;
+      margin-right: 20px;
+      padding: 2rem 0.5rem 1rem 0.5rem;
+  }
+  .content .info h1 {
+    color: #000000;
+    font-size: 40px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    font-weight: 400;
+    white-space: wrap;
+}
+  .content img{
+    display: none;
+  }
+  .image-doe{
+    display: none;
+  }
+  
+  .sobre-nos h2 {
+      font-size: 24px;
+      padding-bottom: 1.5rem;
+  }
+
+  .sobre-nos p {
+      font-size: 16px;
+      margin: 10px;
+  }
+
+  .sobre-nos img {
+      width: 150px;
+      height: 150px;
+      margin: 1rem;
+  }
+
+  .footer-content-contacts h2 {
+      font-size: 22px;
+      margin-left: 20px;
+  }
+
+  .footer-content-contacts img {
+      width: 120px;
+      height: 120px;
+      margin-left: 60px;
+  }
+
+  .footer-list {
+      font-size: 14px;
+  }
+
+  .frase h2 {
+      font-size: 20px;
+  }
+
+  .doe-info h1 {
+      font-size: 26px;
+  }
+
+  .doe-info h2 {
+      font-size: 18px;
+  }
+
+  .doe-info button {
+      font-size: 14px;
+  }
+
+  .info p {
+      font-size: 16px;
+  }
+
+  .doe-info button {
+      font-size: 14px;
+  }
+
+  .subscribe p {
+      font-size: 14px;
+  }
+  .carousel img{
+    height: 250px;
+    user-select:none;
+    margin-left: 14px;
+    width: calc(100% / 3);
+  }
+  .doe-cont .doe-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: calc(100vh - 80px);
+    margin-left: 10px;
+    line-height: 2.2;
+  }
+  section.frase{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.212),rgba(255, 255, 255, 0.185)),url(img/fundoyel.jpg);
+    background-size: 1000px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    font-size: 20px;
+    width: 100vw;
+  }
+  section.frase h2{
+    height: 200px;
+    font-size: 30px;
+    color: #ffffff;
+    padding: 5px ;
+    text-align: center;
+  }
+  section.conquistas{
+    padding: 25px ;
+    text-align: center;
+  }
+  .wrapper i:last-child {
+    right: 0px;
+}
+.wrapper i {
+  background:rgba(231, 229, 229, 0.9);
+}
+.doe-cont{
+  background-size: cover;
+}
+.footer-content-contacts img {
+  width: 120px;
+  height: 120px;
+  margin-left: 120px;
+}
+}
+@media screen and (max-width: 320px) {
+
+  /* Ajustes para o menu mobile */
+  .menu a {
+    font-size: 16px;
+    margin-right: 0;
+    margin-top: 10px;
+    padding: 8px 0;
+  }
+
+  .menu .btn-menu {
+    margin-top: 10px;
+  }
+
+  .menu-items {
+    top: 50px; /* Ajuste para alinhar com o menu */
+  }
+
+  /* Ajustes para a seção "Sobre Nós" */
+  .sobre-nos img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+
+  .quem-somos h2 {
+    margin-top: 20px;
+    margin-left: 0;
+    font-size: 25px;
+  }
+
+  .quem-somos p {
+    margin-left: 0;
+    font-size: 14px;
+  }
+
+  /* Ajustes para a seção "História" */
+  .historia img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+
+  .historia h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
+
+  .historia p {
+    margin: 20px 10px;
+    font-size: 14px;
+  }
+
+  /* Ajustes para a seção "Galeria" */
+  .wrapper h1 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 25px;
+  }
+
+  .wrapper i {
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+  }
+
+  .carousel img {
+    height: 200px;
+  }
+
+  /* Ajustes para a seção "Conquistas" */
+  section.conquistas {
+    padding: 20px 10px;
+  }
+
+  .conquista-single {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  /* Ajustes para o rodapé */
+  .footer-content {
+    grid-template-columns: 1fr; /* Uma coluna para telas menores */
+  }
+
+  .footer-content-contacts img {
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+
+  .vertical-line {
+    margin-left: 0;
+  }
+
+  .footer-copyright {
+    font-size: 0.8rem;
+    padding: 1rem;
+  }
+  .footer-content img{
+    width: 50%;
+    height: 120px;
+    margin-left: 90px;
+  }
+  .footer-content-contacts h2 {
+    margin-left: 40px;
+  }
+  section.frase h2 {
+    height: 170px;
+    font-size: 27px;
+    color: #ffffff;
+    padding: 5px;
+    text-align: center;
+  }
+  .menu-mobile {
+    width: 70%;
+}
 }

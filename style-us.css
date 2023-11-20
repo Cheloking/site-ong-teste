@@ -1056,6 +1056,11 @@ footer {
     line-height: 2;
   }
 
+  section.frase h2 {
+    height: 150px;
+    font-size: 25px;
+}
+
   .historia img {
     width: 100%;
     height: auto;
