@@ -114,7 +114,7 @@ header.pri-section{ /*center*/
 }
   
 body {
-  background-image: url(images/back_yellow.png);
+  background-image: url(img/back_yellow.png);
   background-size: 100%;
   background-repeat: no-repeat;
   min-height: 100vh;
@@ -126,13 +126,23 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; */
 }
 
-h1, h2 {
-  font-size: 3rem;
+h1 {
+  font-size: 32px;
+  text-transform: uppercase;
   color: black;
   margin-bottom: 2rem;
   text-align: center;
   line-height: 1.2;
 }
+
+h2 {
+  font-size: 24px;
+  color: black;
+  margin-bottom: 2rem;
+  text-align: center;
+  line-height: 1.2;
+}
+
 .form {
   width: 100%;
   max-width: 32rem;
@@ -180,7 +190,7 @@ h1, h2 {
 .form button {
   display: block;
   padding: 1rem;
-  background: #0072c4;
+  background: rgb(255, 217, 0);
   color: #fff;
   font: inherit;
   text-transform: uppercase;
@@ -581,13 +591,177 @@ font-size: 35px;
     
 }
 }
+@media screen and (max-width: 320px) {
+  body, html {
+    overflow-x: hidden;
+  }
 
-@media screen and (max-width: 360px) {
+  /* Restante do seu código para a media query */
+  header.pri-section {
+    padding: 0 5px;
+  }
+
+  /* ... outros estilos ... */
+}
+
+
+
+@media screen and (max-width: 501px) {
+  body{
+    background-size: cover;
+  }
+
+  header.pri-section {
+    padding: 0 5px;
+  }
+
   .logo img {
-    margin-right: 250px;
-}
-.footer-content-contacts img {
-  margin-left: 90px;
+    width: 70px;
+    height: 65px;
+  }
+
+  .menu {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+
+  .menu a {
+    font-size: 16px;
+    margin-right: 20px;
+    margin-top: 15px;
+    padding: 1.5rem 0.5rem 1.5rem 0.5rem;
+  }
+
+  .menu .btn-menu {
+    padding: 8px 14px;
+  }
+
+  .menu-items {
+    top: 50px;
+  }
+
+  .form {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .form label,
+  .form input,
+  .form textarea,
+  .form button {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+
+  .form textarea {
+    min-height: 10rem;
+  }
+
+  .footer-content {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 2rem;
+  }
+
+  .footer-content-contacts h2 {
+    margin-left: 10px;
+    font-size: 20px;
+  }
+
+  .footer-content-contacts img {
+    width: 120px;
+    height: 110px;
+    margin-left: 10px;
+  }
+
+  .vertical-line {
+    margin-left: 10px;
+  }
+
+  .footer-copyright {
+    padding: 1rem;
+    font-size: 0.8rem;
+  }
+
+  .footer-list h2 {
+    font-size: 20px;
+  }
+
+  .footer-list li {
+    font-size: 16px;
+  }
+
+  .subscribe h2 {
+    font-size: 20px;
+  }
+  .logo img {
+    margin-right: 300px;
+
+  }
+  
+  .box{
+    background-color: rgb(32, 32, 32);
+    display: grid;
+    grid-template-columns: repeat(1,1fr) 50%; 
+  }
+  .subscribe{
+    text-align: right;
+  }
+  .footer-social-media{
+    justify-content: center;
+  }
+  .sobre-nos p {
+    line-height: 50px;
+    font-size: 22px;
+    margin: 20px 100px 100px 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
 }
 
-}
+/*iphone*/
+@media screen and (max-width: 768px){
+  .pri-section{ /*center*/
+    width: 100%;
+    text-align: center;
+  }
+  .logo img{
+    width: 100%;
+  } 
+  .menu{
+      display: none;
+  }
+  .logo{
+      width: 20%;
+  }
+  .menu-mobile {
+      width: 80%;
+      text-align: right;
+      display: block;
+  }
+  .menu-mobile i{
+      cursor: pointer;
+      font-size: 22px;
+      margin-top: 8px;
+      color: black;
+  }
+  .conteudo-sobre p{
+      width: 100%;
+      margin: 20px 20px;
+  } 
+  .frase-single {
+    width: 100%;
+  }
+  .footer-content {
+      grid-template-columns: repeat(2,1fr);
+      gap: 2rem;
+      gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  }
