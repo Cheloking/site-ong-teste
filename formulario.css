@@ -824,6 +824,14 @@ font-size: 35px;
 
 /* Media Query para tela de 320px */
 @media screen and (max-width: 320px) {
+  body, html {
+    overflow-x: hidden;
+  }
+
+  /* Restante do seu código para a media query */
+  header.pri-section {
+    padding: 0 5px;
+  }
   header.pri-section {
     padding: 0 5px;
   }
@@ -914,7 +922,8 @@ font-size: 35px;
     
 }
 }
-@media screen and (max-width: 320px) {
+
+@media screen and (max-width: 501px) {
   body, html {
     overflow-x: hidden;
   }
@@ -923,13 +932,6 @@ font-size: 35px;
   header.pri-section {
     padding: 0 5px;
   }
-
-  /* ... outros estilos ... */
-}
-
-
-
-@media screen and (max-width: 501px) {
   body{
     background-size: cover;
   }
@@ -1046,6 +1048,14 @@ font-size: 35px;
 
 /*iphone*/
 @media screen and (max-width: 768px){
+  body, html {
+    overflow-x: hidden;
+  }
+
+  /* Restante do seu código para a media query */
+  header.pri-section {
+    padding: 0 5px;
+  }
   .pri-section{ /*center*/
     width: 100%;
     text-align: center;
