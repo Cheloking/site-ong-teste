@@ -343,8 +343,14 @@ font-size: 35px;
 /*RESPONSIVIDADE*/
 
 @media screen and (max-width: 360px) {
+  body, html {
+    overflow-x: hidden;
+  }
 
-    
+  /* Restante do seu código para a media query */
+  header.pri-section {
+    padding: 0 5px;
+  }
   * {
     margin: 0;
     padding: 0;
@@ -666,7 +672,15 @@ font-size: 35px;
 
 
 @media screen and (max-width: 768px){
-.pri-section{ /*center*/
+  body, html {
+    overflow-x: hidden;
+  }
+
+  /* Restante do seu código para a media query */
+  header.pri-section {
+    padding: 0 5px;
+  }
+  .pri-section{ /*center*/
   width: 100%;
   text-align: center;
 }
@@ -706,6 +720,14 @@ font-size: 35px;
 
 /* Media Query para tela de 440px */
 @media screen and (max-width: 440px) {
+  body, html {
+    overflow-x: hidden;
+  }
+
+  /* Restante do seu código para a media query */
+  header.pri-section {
+    padding: 0 5px;
+  }
   body{
     background-size: cover;
   }
