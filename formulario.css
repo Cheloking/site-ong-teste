@@ -72,7 +72,7 @@ header.pri-section{ /*center*/
   display: none;
 }
 
-.menu-items{
+.menu-items {
   position: absolute;
   left: 0;
   top: 60px;
@@ -80,35 +80,25 @@ header.pri-section{ /*center*/
   text-align: center;
   background-color: white;
   border-bottom: 2px solid rgb(255, 217, 0);
-  display: block;
-  opacity: 0; /*animação*/
-  transition: 1s; /*animação*/
+  opacity: 0;
+  pointer-events: none; /* Adicionado para evitar interações durante a transição */
+  transition: opacity 1s; /* Alterado para se concentrar apenas na transição de opacidade */
 }
 
-.menu-items.show{
-  /*display: block;*/
-  opacity: 1; /*animação*/
-} 
-
-.menu-items.hidde{
-  opacity: 0; /*animação*/
-  /* display: none; */
+.menu-items.show {
+  opacity: 1;
+  pointer-events: auto; /* Restaurando interações após a transição */
 }
 
-.menu-items a{
+.menu-items a {
   display: block;
   text-decoration: none;
   font-size: 25px;
   line-height: 1.5;
   color: black;
 }
-  .menu-mobile {
-    width: 100%;
-    text-align: center;
-    display: block;
-}
-.menu-items a:hover{
-  display: block;
+
+.menu-items a:hover {
   text-decoration: none;
   color: black;
   background-color: #ffff57;
