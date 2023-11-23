@@ -53,10 +53,6 @@
     border-radius: 20px;
     color: white;
 }
-.fa-bars:before, .fa-navicon:before {
-  content: "\f0c9";
-  color: white;
-}
 
 .menu .btn-menu:hover{
     background-color: white;
@@ -70,7 +66,7 @@
   display: none;
 }
 
-.menu-items{
+.menu-items {
   position: absolute;
   left: 0;
   top: 60px;
@@ -78,22 +74,17 @@
   text-align: center;
   background-color: white;
   border-bottom: 2px solid rgb(255, 217, 0);
-  display: block;
-  opacity: 0; /*animação*/
-  transition: 1s; /*animação*/
+  opacity: 0;
+  pointer-events: none; /* Adicionado para evitar interações durante a transição */
+  transition: opacity 1s; /* Alterado para se concentrar apenas na transição de opacidade */
 }
 
-.menu-items.show{
-  /*display: block;*/
-  opacity: 1; /*animação*/
-} 
-
-.menu-items.hidde{
-  opacity: 0; /*animação*/
-  /* display: none; */
+.menu-items.show {
+  opacity: 1;
+  pointer-events: auto; /* Restaurando interações após a transição */
 }
 
-.menu-items a{
+.menu-items a {
   display: block;
   text-decoration: none;
   font-size: 25px;
@@ -101,8 +92,7 @@
   color: black;
 }
 
-.menu-items a:hover{
-  display: block;
+.menu-items a:hover {
   text-decoration: none;
   color: black;
   background-color: #ffff57;
@@ -2356,56 +2346,6 @@ color: black;
   .container .image-container .image {
       width: 100%;
   }
-}
-
-
-
-/*Responsividade*/
-
-/*Icon*/
-/* MENU MOBILE */
-.menu-mobile {
-  display: block;
-}
-
-.menu-mobile-icon {
-  cursor: pointer;
-  font-size: 22px;
-  margin-top: 8px;
-  color: black;
-}
-
-.menu-items {
-  position: absolute;
-  left: 0;
-  top: 60px;
-  width: 100%;
-  text-align: center;
-  background-color: white;
-  border-bottom: 2px solid rgb(255, 217, 0);
-  display: none;
-}
-
-.menu-items.show {
-  display: block;
-}
-
-.menu-items a {
-  display: block;
-  text-decoration: none;
-  font-size: 25px;
-  line-height: 1.5;
-  color: black;
-}
-
-.menu-items a:hover {
-  display: block;
-  text-decoration: none;
-  color: black;
-  background-color: #ffff57;
-  padding: 2px 2px 2px 2px;
-  font-weight: 400;
-  transition: all 200ms ease-in;
 }
 
 @media screen and (max-width: 768px) {

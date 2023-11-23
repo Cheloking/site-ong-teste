@@ -102,7 +102,11 @@ header.pri-section{ /*center*/
   line-height: 1.5;
   color: black;
 }
-
+  .menu-mobile {
+    width: 100%;
+    text-align: center;
+    display: block;
+}
 .menu-items a:hover{
   display: block;
   text-decoration: none;
