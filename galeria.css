@@ -32,6 +32,7 @@
 }
 .fa-bars:before, .fa-navicon:before {
   content: "\f0c9";
+  color: white;
 }
 .menu a{
     color: black;
