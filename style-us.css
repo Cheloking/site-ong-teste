@@ -53,6 +53,10 @@
     border-radius: 20px;
     color: white;
 }
+.fa-bars:before, .fa-navicon:before {
+  content: "\f0c9";
+  color: white;
+}
 
 .menu .btn-menu:hover{
     background-color: white;

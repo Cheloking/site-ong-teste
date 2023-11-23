@@ -30,6 +30,9 @@
     width: 90%;
     text-align: right;
 }
+.fa-bars:before, .fa-navicon:before {
+  content: "\f0c9";
+}
 .menu a{
     color: black;
     font-size: 18px;
